@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css2?family=Monda:wght@100;200;300;400;500;600;700&display=swap);
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Monda", sans-serif;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+  background: linear-gradient(123deg, #079797, #979797);
+}
+
+.key {
+  position: relative;
+  font-size: 20px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 2px;
+  padding: 20px;
+  color: aliceblue;
+}
+.key small {
+  position: absolute;
+  top: -30px;
+  left: 0;
+}
+.btn {
+  padding: 20px 25px;
+  font-size: 2em;
+  color: #050a5b73;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  box-shadow: 5px 5px 30px 5px;
+  &:hover {
+    box-shadow: 5px 5px 50px 5px;
+  }
+  &:active {
+    box-shadow: 5px 5px 20px 5px;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+.text-color {
+  color: #fff;
+}
